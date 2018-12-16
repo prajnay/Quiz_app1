@@ -8,6 +8,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.RadioButton;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -42,19 +43,8 @@ public class MainActivity extends AppCompatActivity {
         CheckBox op1 = findViewById(R.id.a2op1);
         CheckBox op2 = findViewById(R.id.a2op2);
         CheckBox op3 = findViewById(R.id.a2op3);
-        boolean checkop1=op1.isChecked();
-        boolean checkop2=op2.isChecked();
-        boolean checkop3=op3.isChecked();
-        if (checkop2 && checkop1){
-            if(checkop3){
-                score=score-1;
-            }else {
-                increment();
-            }
-        }else {
-            if(checkop3){
-                score=score-1;
-            }
+        if(op1.isChecked() && op2.isChecked() && !op3.isChecked()){
+            score += 1;
         }
     }
 
@@ -84,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
     private void finalscore(int fscore) {
         TextView score1 = (TextView) findViewById(R.id.Score);
         score1.setText("Your score is " + fscore);
+        Toast.makeText(MainActivity.this,"Your score is " + fscore, Toast.LENGTH_SHORT).show();
     }
 
     private void Reset() {

@@ -2,7 +2,7 @@
     <string name="app_name">Quiz1</string>
     <string name="Q1">What is the height of the mount everest?</string>
     <string name="A1">8800</string>
-    <string name="Q2">Select all the example of carbohydrates(There is negative marking for the selecting the wrong choice)</string>
+    <string name="Q2">Select all the example of carbohydrates</string>
     <string name="A2op1">Sucrose</string>
     <string name="A2op2">Maltosee</string>
     <string name="A2op3">Maltase</string>
