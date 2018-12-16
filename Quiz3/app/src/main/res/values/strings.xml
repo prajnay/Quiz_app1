@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz1</string>
+    <string name="Q1">What is the height of the mount everest?</string>
+    <string name="A1">8800</string>
+    <string name="Q2">Select all the example of carbohydrates(There is negative marking for the selecting the wrong choice)</string>
+    <string name="A2op1">Sucrose</string>
+    <string name="A2op2">Maltosee</string>
+    <string name="A2op3">Maltase</string>
+    <string name="Q3">The Cold war which lasted 44  years begined in 1947.(True or false)</string>
+    <string name="Q4">How many days are there in the year?</string>
+    <string name="A4">365</string>
+    <string name="anshere">Type your answer here</string>
+</resources>
